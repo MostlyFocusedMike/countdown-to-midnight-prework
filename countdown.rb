@@ -1,10 +1,11 @@
 #write your code here
 
 def countdown(num)
-  time = 1..num
-  for second in time do 
+  count = num
+  until count == 0 do 
     sleep(1)
     puts "#{second} SECOND(S)!"
+    count -= 1
   end
   "HAPPY NEW YEAR!"
 end
