@@ -1,9 +1,10 @@
 #write your code here
 
 def countdown(num)
-  num.times do 
+  time = 1..num
+  for second in time do 
     sleep(1)
-    puts "#{num} SECOND(S)!"
+    puts "#{second} SECOND(S)!"
   end
   "HAPPY NEW YEAR!"
 end
