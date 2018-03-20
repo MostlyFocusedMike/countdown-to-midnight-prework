@@ -1,10 +1,19 @@
 #write your code here
 
 def countdown(num)
-  count = num
-  until count == 0 do 
-    puts "#{count} SECOND(S)!"
-    count -= 1
+
+  until num == 0 do 
+    puts "#{num} SECOND(S)!"
+    num -= 1
+  end
+  "HAPPY NEW YEAR!"
+end
+
+def countdown(num)
+
+  until num == 0 do 
+    puts "#{num} SECOND(S)!"
+    num -= 1
   end
   "HAPPY NEW YEAR!"
 end
